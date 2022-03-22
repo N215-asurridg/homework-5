@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+#app {
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 980px;
+  height: 85px;
+  margin: 0 auto;
+  border-bottom: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-black.png);
+}
+nav .links a {
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  font-family: Gils;
+}
+nav .links .vl {
+  border-left: 1px solid #79addc;
+  height: 21px;
+}
+nav .links span {
+  color: black;
+  margin: 0 20px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+
+.footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+.footer-content .footer-text {
+  font-size: 12px;
+  color: white;
+  font-family: Gils;
+  margin-top: 20px;
+}
+.footer-content .footericons {
+  width: 100px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-content .footericons i {
+  font-size: 25px;
+  color: white;
+}
+
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header {
+  margin-bottom: 107px;
+}
+.about .about-header h1 {
+  margin-bottom: 5px;
+  font-family: Nova;
+  font-size: 60px;
+}
+.about .about-header hr {
+  border-top: solid 1px black;
+  width: 171px;
+  margin-bottom: 36px;
+}
+.about .about-header p {
+  font-family: Gils;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-quote-title {
+  font-family: Nova;
+  font-size: 40px;
+}
+.about .about-client-quotes hr {
+  border-top: solid 1px black;
+  width: 255px;
+  margin-bottom: 36px;
+}
+.about .about-client-quotes .client-photo-paragraph {
+  max-width: 676px;
+  min-height: 150px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .about-client-quotes .client-photo-paragraph .client-photo {
+  width: 250px;
+  height: 150px;
+  background-color: beige;
+  overflow: hidden;
+}
+.about .about-client-quotes .client-photo-paragraph .client-photo img {
+  width: 100%;
+}
+.about .about-client-quotes .client-photo-paragraph .client-paragraph {
+  margin-left: 21px;
+  max-width: 385px;
+  min-height: 102px;
+  margin-bottom: 20px;
+  font-family: Gils;
+  font-size: 16px;
+}
+.about .about-client-quotes .client-photo-paragraph .name-tag {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-family: Nova;
+  font-size: 20px;
+}
+
+footer {
+  height: 100px;
+  background-color: #79addc;
+}
+
+.footer-content {
+  max-width: 980px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-content .logo {
+  width: 92px;
+  height: 42px;
+  background-image: url(../images/logo/logo-white.png);
+}
+.footer-content .footer-text {
+  font-size: 12px;
+  color: white;
+  font-family: Gils;
+  margin-top: 20px;
+}
+.footer-content .footericons {
+  width: 100px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-content .footericons i {
+  font-size: 25px;
+  color: white;
+}
+
+@font-face {
+  font-family: Nova;
+  src: url(../css/fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+@font-face {
+  font-family: Gils;
+  src: url(../css/fonts/GillSans.ttc);
+}
+
+/*# sourceMappingURL=styles.css.map */
